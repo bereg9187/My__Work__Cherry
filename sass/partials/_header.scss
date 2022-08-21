@@ -1,0 +1,65 @@
+header {
+	width:100%;
+    height:72px;
+	display:block;
+	position:relative;
+    background-color:#2e2f33;
+    
+
+    .ch-head {
+        float: left;
+        h1 {
+            color: #a5adb8;
+            font-family: "arial";
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 18px;
+            margin-left: 9px;
+    }
+        h1:first-letter {
+        color:#ae4b5d;
+    }
+        p {
+            font-family: "arial";
+            font-size: 12px;
+            font-weight: 200;
+            color: #656f7a;
+            margin-left: 8px;
+            margin-top: -3px;
+    }
+    }    
+ 
+    .form {
+        float: right;
+        margin-top: 19px;
+        input {
+            width: 187px;
+            height: 32px;
+            border-color: #875f66;
+            border-radius: 6px;
+            border-width: 1px;
+            border-style: solid;
+            background-color: #24272d;
+            padding-left: 9px;
+            float: left;
+            margin-right: 10px;
+        }
+        input::placeholder {
+            color: #5b636e;
+            font-size: 14px;
+        }
+        button {
+            width: 36px;
+            height: 34px;
+            background-image: url(../images/ico-search.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            border-radius: 6px;
+            border: none;
+            margin-right: 8px;
+            padding: 0;
+        }
+        
+    } 
+}
+    

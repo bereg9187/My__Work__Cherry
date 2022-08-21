@@ -27,3 +27,9 @@ aside{
 	position: relative;
 }
 
+.clearfix:after {
+    content: '';
+    display: Table;
+    width: 100%;
+    clear: both;
+    }

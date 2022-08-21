@@ -6,7 +6,84 @@ footer {
     background-color: #282d34;
     border-top: 8px solid #ae4b5d;
     box-sizing: border-box;
+    padding-top: 32px;
     .layout {
         background-color: #282d34;
+    }
+    .cherry__hours,
+    .local__cherry,
+    .los__angeles__location {
+        float: left;
+        font-family: "eurofurence", sans-serif;
+    }
+    h3 {
+        font-size: 18px;
+        color: #a5adb8;
+    }
+    h3::after {
+        content: '';
+        display: block;
+        width: 270px;
+        height: 1px;
+        background-color: #40474f;
+        margin-top: 10px;
+        margin-bottom: 13px;
+        border-top: 1px solid #191c20;
+        
+    }
+    p, li {
+        font-size: 12px;
+        color: #85898f;
+    }
+    .cherry__hours {
+        margin-left: 9px;
+        margin-right: 79px;
+        h3::first-letter {
+            color: #ae4b5d;
+        }
+        p {
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        img {
+            vertical-align: bottom;
+            margin-right: 9px;
+        }
+    }
+    .local__cherry {
+        margin-right: 75px;
+       
+            li {
+                color: #9c4757;
+                margin-bottom: 15px;
+            } 
+        li::before {
+            content: "•";
+            color: #9c4757;
+            padding-right: 12px;
+        }
+            span {
+                color:#85898f;
+            }
+        p {
+            font-size: 14px;
+            font-weight: bold;
+            color: #a5adb8;
+        }
+        
+    }
+    span {
+        color: #ae4b5d;
+    }
+    .los__angeles__location {
+        li {
+            margin-bottom: 15px;
+        }
+        a {
+            color: #d08b98;
+            text-decoration: underline;
+        }
     }
 }

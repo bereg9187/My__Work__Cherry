@@ -130,7 +130,6 @@ main {
   width: 100%;
   position: relative;
   background-color: #e3e7e8;
-  height: 6000px;
 }
 
 #content {
@@ -227,6 +226,13 @@ footer {
   width: 100%;
   margin: 0 0 0;
   padding: 0 0 0;
+  background-color: #282d34;
+  border-top: 8px solid #ae4b5d;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+footer .layout {
+  background-color: #282d34;
 }
 
 main .eb {

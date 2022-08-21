@@ -288,24 +288,21 @@ footer .local__cherry {
   margin-right: 75px;
 }
 footer .local__cherry li {
-  color: #9c4757;
   margin-bottom: 15px;
 }
 footer .local__cherry li::before {
   content: "•";
   color: #9c4757;
   padding-right: 12px;
+  color: #9c4757;
 }
 footer .local__cherry span {
-  color: #85898f;
+  color: #9c4757;
 }
 footer .local__cherry p {
   font-size: 14px;
   font-weight: bold;
   color: #a5adb8;
-}
-footer span {
-  color: #ae4b5d;
 }
 footer .los__angeles__location li {
   margin-bottom: 15px;

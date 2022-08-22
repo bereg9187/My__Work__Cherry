@@ -44,9 +44,15 @@ header {
             float: left;
             margin-right: 10px;
         }
+        input {
+            color: #5b636e;
+        }
         input::placeholder {
             color: #5b636e;
             font-size: 14px;
+        }
+        input:focus {
+            border-width: 3px;
         }
         button {
             width: 36px;
@@ -58,6 +64,9 @@ header {
             border: none;
             margin-right: 8px;
             padding: 0;
+        }
+        button:hover {
+            cursor: pointer;
         }
         
     } 
